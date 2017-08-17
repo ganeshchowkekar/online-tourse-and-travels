@@ -16,6 +16,7 @@
 	</properties>
 
 	<dependencies>
+		
 		<!-- JAVA EE API -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -39,7 +40,12 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-		
+		<!-- jstl -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.1.2</version>
+		</dependency>
 
 		<!-- STANDARD -->
 		<dependency>
@@ -51,7 +57,6 @@
 
 	</dependencies>
 	<build>
-
 
 		<!-- Update to latest version of JAVA -->
 		<plugins>
