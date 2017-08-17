@@ -6,6 +6,7 @@
 <spring:url var="css" value="/resources/css" />
 <spring:url var="js" value="/resources/js" />
 <spring:url var="images" value="/resources/images" />
+<spring:url var="font" value="/resources/fonts" />
 
 <c:set var="contextRoot" value="${pageContext.request.contextPath }" />
 <!DOCTYPE html>
@@ -24,12 +25,15 @@
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
-<!-- bootstrap rreadable theme -->
-<link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+<!-- bootstrap solar theme -->
+<link href="${css}/bootstrap-solar-theme.css" rel="stylesheet">
 
-<!-- Custom styles for this template 
+<!-- Custom styles for this template -->
 <link href="${css}/myapp.css" rel="stylesheet">
--->
+
+<!-- font for footer -->
+<link href="${font}/font-awesome.css" rel="stylesheet">
+
 
 </head>
 <body>
